@@ -47,6 +47,14 @@ body {
   margin-top: 20px;
 }
 
+#res-container {
+  height: 20vh;
+  padding: 20px;
+
+  text-align: center;
+  
+}
+
 input {
   width: 15%;
 
