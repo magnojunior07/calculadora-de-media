@@ -5,15 +5,12 @@ body {
   padding: 0;
   font-family: "Roboto Mono", monospace;
   min-height: 400px;
-  /*
-  background-image: url("https://images-platform.99static.com//XDqAq_HapvXR9AWeozwbmXyPR3E=/168x2172:1831x3835/fit-in/500x500/99designs-contests-attachments/128/128327/attachment_128327450");
-  TEMPORARIAMENTE DESATIVADO O BACKGROUND
+  background-image: url("https://i.ibb.co/m8K1P5j/attachment-128327450-removebg-preview-1.png");
+  background-repeat: no-repeat;
   background-position: top;
-  background-repeat: repeat-y;
-  background-size: 80vh;
-  */
+  background-position-y: 200px;
+  background-size: 60vh;
   background-color: #003366;
-
 }
 
 .container {
@@ -57,10 +54,14 @@ body {
 
 #aprove {
   color: greenyellow;
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 #reprove {
-  color: red;
+  color: orangered;
+  text-decoration: underline;
+  font-size: 20px;
 }
 
 input {
