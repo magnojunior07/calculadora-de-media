@@ -30,13 +30,13 @@ calculate_btn.addEventListener("click", () => {
         res = `
         <h2> Sua média anual: ${averageUserNote} </h2>
         <br>
-        <p id="aprove"> Voçe esta aprovado!!</p>
+        <p id="aprove"> Você está aprovado! :)</p>
         `;
     } else {
         res = `
         <h2> Sua média anual: ${averageUserNote} </h2>
         <br>
-        <p id="reprove"> Voçe esta reprovado!!</p>
+        <p id="reprove"> Você está reprovado! :(</p>
         `;
     }
 
