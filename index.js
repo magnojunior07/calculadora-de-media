@@ -49,12 +49,12 @@ function calculateAverage() {
     
 
     if (averageNote >= 7.0) {
-        isAprove = true
-    }
+        isAprove = true;
+    };
 
-    if (averageNote == NaN) {
-        return 0.0
+    if (!averageNote) {
+        return 0.0;
     } else {
-        return averageNote.toFixed(2)
-    }
-}
+        return averageNote.toFixed(1); 
+    };
+};
