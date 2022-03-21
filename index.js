@@ -1,11 +1,10 @@
 const res_container = document.getElementById("res-container");
-const NOTES_IN_YEAR = 8;
 
 let calculate_btn = document.getElementById("calculate-btn");
 let inputs = document.querySelectorAll("input");
 let anualNotes = [];
 let averageNote = 0;
-let res;
+let res = 0;
 
 calculate_btn.addEventListener("click", () => {
     anualNotes = [];
@@ -22,10 +21,10 @@ calculate_btn.addEventListener("click", () => {
 
     });
 
-    calculateAverage()
+    calculateAverage();
 
-    res = `<h2> Sua média anual: ${averageNote} </h2?`
-    res_container.innerHTML = res
+    res = `<h2> Sua média anual: ${averageNote.toFixed(2)} </h2?`;
+    res_container.innerHTML = res;
 });
 
 
@@ -37,7 +36,7 @@ function calculateAverage() {
         sumOfAllNotes += anualNotes[i];
         
     };
-    averageNote = sumOfAllNotes / NOTES_IN_YEAR;
+    averageNote = sumOfAllNotes / anualNotes.length;
 
 
 }
