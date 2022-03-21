@@ -1,0 +1,97 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Calculadora de Média</title>
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+</head>
+
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Calculadora de média</h1>
+    <h2 class="page-subtitle">
+      Descubra sua média e se você está aprovado(a) ou reprovado(a)
+    </h2>
+  </div>
+
+  <div class="container">
+    <div class="bimester-container">
+
+      <div class="title-container">
+        <h2> 1º Bimestre </h2>
+      </div>
+
+      <div class="input-container">
+        <label for="b1Note1">Insira a nota da primeira prova:</label>
+        <input type="number" name="b1Note1" id="b1Note1" min="0" max="10">
+      </div>
+
+      <div class="input-container">
+        <label for="b1Note2">Insira a nota da segunda prova:</label>
+        <input type="number" name="b1Note2" id="b1Note2" min="0" max="10">
+      </div>
+    </div>
+
+    <div class="bimester-container">
+
+      <div class="title-container">
+        <h2> 2º Bimestre </h2>
+      </div>
+
+      <div class="input-container">
+        <label for="b2Note1">Insira a nota da primeira prova:</label>
+        <input type="number" name="b2Note1" id="b2Note1" min="0" max="10">
+      </div>
+
+      <div class="input-container">
+        <label for="b2Note2">Insira a nota da segunda prova:</label>
+        <input type="number" name="b2Note2" id="b2Note2" min="0" max="10">
+      </div>
+    </div>
+
+    <div class="bimester-container">
+
+      <div class="title-container">
+        <h2> 3º Bimestre </h2>
+      </div>
+
+      <div class="input-container">
+        <label for="b3Note1">Insira a nota da primeira prova:</label>
+        <input type="number" name="b3Note1" id="b3Note1" min="0" max="10">
+      </div>
+
+      <div class="input-container">
+        <label for="b3Note2">Insira a nota da segunda prova:</label>
+        <input type="number" name="b3Note2" id="b3Note2" min="0" max="10">
+      </div>
+    </div>
+
+    <div class="bimester-container">
+
+      <div class="title-container">
+        <h2> 4º Bimestre </h2>
+      </div>
+
+      <div class="input-container">
+        <label for="b4Note1">Insira a nota da primeira prova:</label>
+        <input type="number" name="b4Note1" id="b4Note1" min="0" max="10">
+      </div>
+
+      <div class="input-container">
+        <label for="b4Note2">Insira a nota da segunda prova:</label>
+        <input type="number" name="b4Note2" id="b4Note2" min="0" max="10">
+      </div>
+    </div>
+
+    <div class="button-container">
+      <button type="submit" onclick="media()">Calcular</button>
+    </div>
+    <h1 id="mediaFinal"></h1>
+    <h1 id="aprove"></h1>
+    <script src="index.js"></script>
+</body>
+
+</html>
