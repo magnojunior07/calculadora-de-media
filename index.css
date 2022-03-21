@@ -55,6 +55,14 @@ body {
   
 }
 
+#aprove {
+  color: greenyellow;
+}
+
+#reprove {
+  color: red;
+}
+
 input {
   width: 15%;
 

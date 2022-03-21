@@ -25,11 +25,21 @@ calculate_btn.addEventListener("click", () => {
 
     averageUserNote = calculateAverage();
 
-    res = `
+
+    if (isAprove) {
+        res = `
         <h2> Sua média anual: ${averageUserNote} </h2>
         <br>
-        <p> Voçe esta ${isAprove ? "aprovado" : "reprovado"}</p>
+        <p id="aprove"> Voçe esta aprovado!!</p>
         `;
+    } else {
+        res = `
+        <h2> Sua média anual: ${averageUserNote} </h2>
+        <br>
+        <p id="reprove"> Voçe esta reprovado!!</p>
+        `;
+    }
+
     res_container.innerHTML = res;
 });
 
