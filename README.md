@@ -5,7 +5,3 @@
 Projeto criado por:<br>
 Magno Junior, <br>
 Marden Rafael, <br>
-Mateus Manoel, <br>
-André
-
-
