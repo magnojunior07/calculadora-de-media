@@ -60,15 +60,16 @@ button {
   border-radius: 5px;
 }
 
-#media {
-  margin-left: 550px;
-  padding: 10px;
-  align-items: center;
+#res-container {
+  text-align: center;
   display: inline;
-  font-size: 20px;
+  color: #003366;
+  font-size: 10px;
 }
 
+
 #aprove {
+  color: #fff;
   margin-left: 550px;
   padding: 10px;
   align-items: center;
@@ -79,6 +80,7 @@ button {
 }
 
 #reprove {
+  color: #fff;
   margin-left: 550px;
   padding: 10px;
   display: inline;
