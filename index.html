@@ -5,26 +5,21 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Calculadora de Média</title>
-  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
-  <link rel="icon" type="image/x-icon" href="https://i.ibb.co/QFr7Gg2/attachment-128327450.png">
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen"/>
+  <link rel="icon" type="image/x-icon" href= "https://i.ibb.co/QFr7Gg2/attachment-128327450.png"/>
 </head>
 
 <body>
-  <div class="container">
+  <header>
+    <img src="https://i.ibb.co/m8K1P5j/attachment-128327450-removebg-preview-1.png">
     <h1 class="page-title">
       Calculadora de média</h1>
-    <h2 class="page-subtitle">
-      Descubra sua média e se você está aprovado(a) ou reprovado(a)
-    </h2>
-  </div>
-
-  <div class="container">
-
-    <p> Para a média considerada aprovada tem que ser igual ou superior a 7</p>
-
-    <div class="bimester-container">
-
-      <div class="title-container">
+      <p class="page-subtitle">
+        Descubra sua média e se você está aprovado(a) ou reprovado(a)
+      </p>
+  </header>
+ 
+      <div class="bimester-container">
         <h2> 1º Bimestre </h2>
       </div>
 
@@ -37,11 +32,8 @@
         <label for="p1-note">Insira a nota da segunda prova:</label>
         <input type="number" name="p2-note" id="p2-note" min="0" max="10">
       </div>
-    </div>
 
-    <div class="bimester-container">
-
-      <div class="title-container">
+      <div class="bimester-container">
         <h2> 2º Bimestre </h2>
       </div>
 
@@ -56,9 +48,7 @@
       </div>
     </div>
 
-    <div class="bimester-container">
-
-      <div class="title-container">
+      <div class="bimester-container">
         <h2> 3º Bimestre </h2>
       </div>
 
@@ -73,9 +63,7 @@
       </div>
     </div>
 
-    <div class="bimester-container">
-
-      <div class="title-container">
+      <div class="bimester-container">
         <h2> 4º Bimestre </h2>
       </div>
 
@@ -90,11 +78,10 @@
       </div>
     </div>
 
-    <div class="button-container">
-      <input type="submit" value="Calcular" id="calculate-btn" >
-    </div>
+      <button class="button" id="calculate-btn">Calcular</button>
     <div id="res-container"></div>
     <script src="index.js"></script>
+    <footer></footer>
 </body>
 
 </html>
