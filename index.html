@@ -12,11 +12,15 @@
 <body>
   <header>
     <img src="https://i.ibb.co/m8K1P5j/attachment-128327450-removebg-preview-1.png">
-    <h1 class="page-title">
-      Calculadora de média</h1>
-      <p class="page-subtitle">
-        Descubra sua média e se você está aprovado(a) ou reprovado(a)
+    <div class="header-container">
+      <h1>
+         Calculadora de média
+      </h1>
+      <br>
+      <p>
+         Descubra sua média e se você está aprovado(a) ou reprovado(a)
       </p>
+    </div>
   </header>
  
       <div class="bimester-container">
@@ -46,7 +50,6 @@
         <label for="p1-note">Insira a nota da segunda prova:</label>
         <input type="number" name="p2-note" id="p2-note" min="0" max="10">
       </div>
-    </div>
 
       <div class="bimester-container">
         <h2> 3º Bimestre </h2>
@@ -77,8 +80,10 @@
         <input type="number" name="p2-note" id="p2-note" min="0" max="10">
       </div>
     </div>
+    <div class="button-container">
+      <button type="button" class="button" id="calculate-btn">Calcular</button>
+    </div>
 
-      <button class="button" id="calculate-btn">Calcular</button>
     <div id="res-container"></div>
     <script src="index.js"></script>
     <footer></footer>

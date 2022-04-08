@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto Mono", monospace;
+  width: 100%;
   min-height: 400px;
 }
 
@@ -11,7 +12,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding-left: 30px;
 }
 
 header img {
@@ -19,74 +20,15 @@ header img {
 }
 
 header h1 {
+  align-items: center;
   color: #fff;
-  margin-left: 5px;
   font-weight: bold;
 }
 
 header p {
+  margin-top: -30px;
   color: #fff;
-  margin-top: 65px;
-  margin-left: -350px;
   text-align: center;
-}
-
-.bimester-container {
-  color: #003366;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.input-container {
-  color: #003366;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  padding: 5px;
-}
-
-button {
-  margin-left: 630px;
-  margin-top: 15px;
-  padding: 10px;
-  background-color: #003366;
-  color: #fff;
-  border: none;
-  text-transform: uppercase;
-  font-weight: bold;
-  cursor: pointer;
-  border-radius: 5px;
-}
-
-#res-container {
-  text-align: center;
-  display: inline;
-  color: #003366;
-  font-size: 10px;
-}
-
-
-#aprove {
-  color: #fff;
-  margin-left: 550px;
-  padding: 10px;
-  align-items: center;
-  display: inline;
-  background-color: green;
-  text-decoration: underline;
-  font-size: 20px;
-}
-
-#reprove {
-  color: #fff;
-  margin-left: 550px;
-  padding: 10px;
-  display: inline;
-  background-color: red;
-  text-decoration: underline;
-  font-size: 20px;
 }
 
 footer {
@@ -105,3 +47,87 @@ input {
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
 }
+
+button:hover {
+  background-color: #034b94;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px;
+  background-color: #003366;
+  color: #fff;
+  border: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.bimester-container {
+  color: #003366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-container {
+  color: #003366;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aprove-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reprove-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#res-container {
+  text-align: center;
+  display: inline;
+  color: #003366;
+  font-size: 10px;
+}
+
+#aprove {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  display: inline;
+  background-color: green;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+#reprove {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  display: inline;
+  background-color: red;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+@media (min-width: 400px) {
+  header {
+    font-size: 14px;
+  }
+}
+
