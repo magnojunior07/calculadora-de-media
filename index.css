@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto Mono", monospace;
+  width: 100%;
   min-height: 400px;
 }
 
@@ -11,7 +12,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 30px;
+  padding-left: 30px;
 }
 
 header img {
@@ -19,15 +20,14 @@ header img {
 }
 
 header h1 {
+  align-items: center;
   color: #fff;
-  margin-left: 5px;
   font-weight: bold;
 }
 
 header p {
+  margin-top: -30px;
   color: #fff;
-  margin-top: 65px;
-  margin-left: -350px;
   text-align: center;
 }
 
@@ -86,13 +86,13 @@ button {
   align-items: center;
 }
 
-.aprove-conteiner {
+.aprove-container {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.reprove-conteiner {
+.reprove-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -125,4 +125,9 @@ button {
   font-size: 20px;
 }
 
+@media (min-width: 400px) {
+  header {
+    font-size: 14px;
+  }
+}
 
